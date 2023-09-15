@@ -1,0 +1,46 @@
+section .work_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  gap: 6rem;
+  margin-right: 5rem;
+}
+.work img {
+  width: 40% auto;
+  height: 60%;
+}
+.work_container .work {
+  text-align: center;
+}
+.work p {
+  color: #555;
+  font-size: 0.9rem;
+}
+.work h4 {
+  font-size: 1.8rem;
+}
+.work_head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 1080px) {
+  .work_container {
+    gap: 1rem;
+  }
+  .work img {
+    width: 60%;
+    height: 60%;
+  }
+}
+@media screen and (max-width: 985px) {
+  .work img {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .grid {
+    flex-direction: column;
+    margin-left: 5rem;
+  }
+}

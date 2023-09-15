@@ -1,0 +1,125 @@
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+nav .nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #555;
+  border: 1px solid #bababa;
+  box-shadow: 0px 0px 2px 0px #bababb;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.nav_Right span {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+.nav_Right button {
+  border: 1px solid #333;
+  background: #555;
+  background-color: transparent;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.nav_Right a {
+  background: #161b25;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.nav_Right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.nav_Right .menu {
+  display: none;
+}
+/* ============================================== */
+
+.pages-drop:hover .pages_details {
+  display: block;
+}
+.pages_details {
+  background: #fff;
+  border: 1px solid #bababa;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: auto;
+  width: 14vw;
+  border-radius: 10px;
+  z-index: 1;
+  padding: 1rem 5px;
+  transition: 300ms ease;
+  position: fixed;
+}
+.pages_details {
+  display: none;
+}
+.pages_details ul {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+ul li:hover {
+  background: #c0c0e9;
+
+  border-radius: 10px;
+}
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.menu_mobile ul li {
+  margin-bottom: 1rem;
+}
+.menu_mobile span {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+.menu_mobile {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -2rem;
+  display: none;
+}
+.mobile_btn {
+  background: #161b25;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+}
+
+@media screen and (max-width: 940px) {
+  .nav_Right span,
+  small,
+  a,
+  button {
+    display: none;
+  }
+  .nav_Right .menu {
+    display: block;
+  }
+  .menu_mobile.active {
+    display: block;
+  }
+}

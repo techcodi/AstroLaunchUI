@@ -1,0 +1,16 @@
+.companies_container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+.companies_container img {
+  width: 80%;
+}
+.companies h3 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 7rem;
+  color: #2c342e;
+}

@@ -1,0 +1,52 @@
+aside .a_container {
+  margin-left: 2rem;
+}
+
+.a_first_div h2 {
+  font-size: 2.3rem;
+  margin-bottom: 1.3rem;
+  color: #3e3e3e;
+  font-weight: 600;
+}
+.a_first_div h4 {
+  color: #0ca0f6;
+  font-size: 1.2rem;
+  margin-bottom: 1.3rem;
+}
+.a_first_div p {
+  color: #555;
+  font-size: 15px;
+  font-weight: 300;
+}
+/* =========================== */
+.sapn_countUp {
+  color: #3e3e37;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+.countUp_s_p {
+  font-weight: 300;
+  font-size: 15px;
+  color: #544;
+}
+.second_div_flex_left {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+.a_second_div_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second_div_flex_right img {
+  width: 100%;
+}
+@media screen and (max-width: 900px) {
+  .a_second_div_flex {
+    flex-direction: column;
+  }
+  .second_div_flex_left {
+    grid-template-columns: 1fr 1fr;
+  }
+}

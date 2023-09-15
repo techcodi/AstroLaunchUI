@@ -1,0 +1,57 @@
+.mainTemp {
+  margin-top: 4rem;
+}
+
+.example_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 0 4rem;
+  margin-top: 4rem;
+}
+.exampleHead h6 {
+  font-size: 1.2rem;
+  color: #3939ec;
+}
+.exampleHead p {
+  font-size: 2.3rem;
+}
+.exampleHead {
+  margin-left: 4rem;
+}
+.exampleHead small {
+  color: #555;
+}
+.template img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 0px 10px 0px #555;
+}
+.template a {
+  color: #3e3e37;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+}
+.template p {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 3rem;
+  font-size: 14px;
+  font-weight: 400;
+}
+.template h3 {
+  color: #3e3e37;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+.template h3:hover {
+  color: #3939ec;
+}
+
+@media screen and (max-width: 950px) {
+  .example_container {
+    flex-direction: column;
+  }
+}

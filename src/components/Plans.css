@@ -1,0 +1,84 @@
+.plan_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 8rem;
+}
+.planHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.planHead h2 {
+  color: #161b25;
+  font-size: 2rem;
+}
+.planHead p {
+  color: #566;
+}
+.card_down {
+  display: flex;
+  flex-direction: column;
+}
+.card_down small {
+  border-bottom: 1px solid #bababa;
+  padding: 1.5rem 0;
+  text-align: center;
+  width: 100%;
+}
+.first_card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  border: 1px solid #bababa;
+  box-shadow: 0px 0px 2px 0px #bababb;
+  padding: 1rem 6rem;
+  border-radius: 10px;
+}
+.card_top p {
+  font-size: 1.2rem;
+}
+.card_top h4 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.plan_form {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.card_right {
+  background-color: #161b25;
+  color: #fff;
+}
+.btn {
+  background: #fff;
+  color: #161b25;
+  border: none;
+  padding: 7px 8px;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.btn-primary {
+  color: #fff;
+  background: #161b25;
+  border: none;
+  padding: 7px 8px;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 700px) {
+  .plan_form {
+    flex-direction: column;
+  }
+  .planHead h2 {
+    font-size: 1.7rem;
+  }
+  .planHead p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
