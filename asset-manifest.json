@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/%20AstroLaunchUI%20/static/css/main.6c423c61.css",
+    "main.js": "/%20AstroLaunchUI%20/static/js/main.098047c3.js",
+    "static/js/787.7e12d6c7.chunk.js": "/%20AstroLaunchUI%20/static/js/787.7e12d6c7.chunk.js",
+    "index.html": "/%20AstroLaunchUI%20/index.html",
+    "main.6c423c61.css.map": "/%20AstroLaunchUI%20/static/css/main.6c423c61.css.map",
+    "main.098047c3.js.map": "/%20AstroLaunchUI%20/static/js/main.098047c3.js.map",
+    "787.7e12d6c7.chunk.js.map": "/%20AstroLaunchUI%20/static/js/787.7e12d6c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c423c61.css",
+    "static/js/main.098047c3.js"
+  ]
+}
