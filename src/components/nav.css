@@ -110,10 +110,16 @@ ul li {
 }
 
 @media screen and (max-width: 940px) {
-  .nav_Right span,
-  small,
-  a,
-  button {
+  .nav_Right span {
+    display: none;
+  }
+  .nav_Right small {
+    display: none;
+  }
+  .nav_Right a {
+    display: none;
+  }
+  .nav_Right button {
     display: none;
   }
   .nav_Right .menu {
@@ -121,5 +127,6 @@ ul li {
   }
   .menu_mobile.active {
     display: block;
+    transition: 300ms ease;
   }
 }
