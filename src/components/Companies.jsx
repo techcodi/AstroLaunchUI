@@ -7,6 +7,7 @@ const Companies = () => {
       <h3>Trusted by the best companies</h3>
       <div className="companies_container">
         <img src="./logo-ibm.png" alt=" logo" />
+
         <img src="./logo-microsoft.png" alt=" logo" />
         <img src="./logo-salesforce.png" alt=" logo" />
         <img src="./logo-amazons.png" alt=" logo" />

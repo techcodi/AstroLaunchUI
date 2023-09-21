@@ -5,15 +5,14 @@ import BorderInnerIcon from "@mui/icons-material/BorderInner";
 const Allwork = () => {
   return (
     <section>
-       <div className="work_head">
-          <big>Design & Code by</big>
-          <span>
-            <BorderInnerIcon />
-          </span>
-          <span>Creative Tim</span>
-        </div>
+      <div className="work_head">
+        <big>Design Code by</big>
+        <span>
+          <BorderInnerIcon />
+        </span>
+        <span>Creative Tim</span>
+      </div>
       <div className="work_container grid">
-       
         <div className="work">
           <img src="./icon1.png" alt="for dev" />
           <h4>For Designers</h4>
