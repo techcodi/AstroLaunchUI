@@ -28,6 +28,7 @@ const Allwork = () => {
         </div>
         <div className="work">
           <img src="./icon3.png" alt="for dev" />
+
           <h4>For Store Owners</h4>
           <p>
             Save time and money by helping your team focus on customization and
