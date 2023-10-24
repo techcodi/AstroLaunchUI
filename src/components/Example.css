@@ -53,5 +53,11 @@
 @media screen and (max-width: 950px) {
   .example_container {
     flex-direction: column;
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .exampleHead {
+    margin-left: 15px;
   }
 }

@@ -6,11 +6,16 @@
   gap: 2rem;
 }
 .companies_container img {
-  width: 80%;
+  width: 100%;
 }
 .companies h3 {
   text-align: center;
   text-transform: uppercase;
   padding-top: 7rem;
   color: #2c342e;
+}
+@media screen and (max-width: 600px) {
+  .companies_container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

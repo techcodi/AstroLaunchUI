@@ -57,4 +57,13 @@
   .last_div img {
     width: 100%;
   }
+  .last_div p {
+    padding: 0 10px;
+  }
+  .last_div h2 {
+    padding: 0 10px;
+  }
+  .article_container .a_first_div {
+    padding: 0 10px;
+  }
 }

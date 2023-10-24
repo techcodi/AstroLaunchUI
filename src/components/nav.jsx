@@ -36,7 +36,6 @@ const Nav = () => {
               </ul>
             </div>
           </div>
-
           <span>
             {" "}
             <LayersOutlinedIcon />
@@ -54,12 +53,14 @@ const Nav = () => {
           <a href="http://" target="_blank" rel="noopener noreferrer">
             FREE DOWNLOAD
           </a>
-          <MenuIcon
-            className="menu"
-            onClick={() => {
-              setOpenMenu(!openMenu);
-            }}
-          />
+          {
+            <MenuIcon
+              className="menu"
+              onClick={() => {
+                setOpenMenu(!openMenu);
+              }}
+            />
+          }
         </div>
       </div>
       <div className={`menu_mobile ${openMenu ? "active" : null}`}>

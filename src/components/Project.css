@@ -33,5 +33,9 @@
 @media screen and (max-width: 650px) {
   .project_contents p {
     font-size: 0.9rem;
+    padding: 0 10px;
+  }
+  .project_contents h2 {
+    padding: 0 10px;
   }
 }

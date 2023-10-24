@@ -48,4 +48,7 @@
   .AstroRight img {
     width: 100%;
   }
+  .section_Astro {
+    padding: 1rem;
+  }
 }

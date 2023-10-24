@@ -46,6 +46,9 @@ nav .nav_container {
 .nav_Right .menu {
   display: none;
 }
+.nav_Right .menu-close {
+  display: none;
+}
 /* ============================================== */
 
 .pages-drop:hover .pages_details {
@@ -128,5 +131,8 @@ ul li {
   .menu_mobile.active {
     display: block;
     transition: 300ms ease;
+  }
+  nav {
+    padding: 0 1rem;
   }
 }

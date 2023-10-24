@@ -56,3 +56,9 @@
     gap: 3rem;
   }
 }
+@media screen and (max-width: 410px) {
+  .first_footer_left h2,
+  .first_footer_left p {
+    padding: 0 10px;
+  }
+}
